@@ -1,7 +1,7 @@
 
 import { ed25519 } from '@noble/curves/ed25519';
 import { useWallet } from '@solana/wallet-adapter-react';
-import { Message } from '@solana/web3.js';
+
 import bs58 from 'bs58';
 
 const SendMessage = () => {
